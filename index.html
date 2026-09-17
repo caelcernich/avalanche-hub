@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avalanche Hub — Colorado Avalanche 2026-27</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏒</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F6F7F9; --panel: #FFFFFF; --ink: #14171C; --ink-dim: #5B6270; --ink-faint: #8B92A0;
+    --line: #E3E6EA; --accent: #6F2C3B; --accent-soft: #F3E4E8; --blue: #236192; --blue-soft: #E6EEF3;
+    --positive: #2F7A55; --positive-soft: #E5F2EB; --negative: #B3462C; --negative-soft: #FBEAE5;
+    --radius: 10px; --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:#14171B; --panel:#1C1F24; --ink:#F1F2F4; --ink-dim:#A4ABB6; --ink-faint:#767E8A;
+      --line:#2B2F36; --accent:#D98CA0; --accent-soft:#3A2530; --blue:#86B7DE; --blue-soft:#1E2E38;
+      --positive:#5FBE8C; --positive-soft:#16281F; --negative:#E2916F; --negative-soft:#2E1D17; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg:#14171B; --panel:#1C1F24; --ink:#F1F2F4; --ink-dim:#A4ABB6; --ink-faint:#767E8A;
+    --line:#2B2F36; --accent:#D98CA0; --accent-soft:#3A2530; --blue:#86B7DE; --blue-soft:#1E2E38;
+    --positive:#5FBE8C; --positive-soft:#16281F; --negative:#E2916F; --negative-soft:#2E1D17; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; }
+  body { background: var(--bg); color: var(--ink); font-family: var(--font-body); -webkit-font-smoothing: antialiased; line-height: 1.45; }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  button { font-family: inherit; cursor: pointer; }
+  ::selection { background: var(--accent-soft); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  header.masthead { border-bottom: 1px solid var(--line); padding: 22px 0 0 0; background: var(--panel); }
+  .masthead-row { display:flex; align-items:flex-start; justify-content:space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { display:flex; align-items:center; gap:14px; }
+  .brand-badge { width:52px; height:52px; border-radius:50%; background: var(--accent); color:#fff; display:flex; align-items:center; justify-content:center; font-family: var(--font-display); font-weight:700; font-size:17px; letter-spacing:0.02em; flex-shrink:0; border: 2px solid var(--line); }
+  .brand-text h1 { font-family: var(--font-display); font-weight:600; font-size: 28px; margin:0; letter-spacing:-0.01em; }
+  .brand-text p { margin: 2px 0 0 0; color: var(--ink-dim); font-size: 13.5px; }
+  .live-status { display:flex; align-items:center; gap:8px; font-size:12.5px; color: var(--ink-dim); padding-top: 6px; }
+  .live-dot { width:7px; height:7px; border-radius:50%; background: var(--positive); flex-shrink:0; }
+  .live-dot.pulse { animation: pulse 2.2s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.35; } }
+  @media (prefers-reduced-motion: reduce) { .live-dot.pulse { animation: none; } }
+  .refresh-btn { border:1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 6px; padding: 5px 10px; font-size: 12.5px; margin-left: 6px; }
+  .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+  nav.tabs { display:flex; gap: 4px; margin-top: 18px; overflow-x: auto; }
+  nav.tabs button { background:none; border:none; color: var(--ink-dim); font-size: 14.5px; font-weight:600; padding: 10px 14px 12px 14px; border-bottom: 2px solid transparent; white-space: nowrap; }
+  nav.tabs button.active { color: var(--ink); border-bottom-color: var(--accent); }
+  nav.tabs button:hover { color: var(--ink); }
+  main { padding: 26px 0 80px 0; }
+  section.view { display:none; }
+  section.view.active { display:block; }
+  h2.section-title { font-family: var(--font-display); font-weight:600; font-size: 21px; margin: 0 0 14px 0; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 18px; }
+  .hint { color: var(--ink-faint); font-size: 12.5px; }
+  .note-box { border-left: 3px solid var(--blue); background: var(--blue-soft); padding: 10px 14px; border-radius: 4px; font-size: 13px; color: var(--ink-dim); margin: 10px 0; }
+  .hero { border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 22px 24px; background: var(--panel); margin-bottom: 20px; }
+  .hero-eyebrow { font-size: 12.5px; color: var(--ink-faint); margin-bottom: 6px; }
+  .hero-matchup { display:flex; align-items:baseline; gap: 12px; flex-wrap: wrap; font-family: var(--font-display); }
+  .hero-matchup .vs { font-size: 15px; color: var(--ink-faint); font-family: var(--font-body); }
+  .hero-team { font-size: 30px; font-weight: 600; }
+  .hero-meta { margin-top: 10px; color: var(--ink-dim); font-size: 14px; }
+  .hero-meta span.dim { color: var(--ink-faint); }
+  .hero-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 14px; margin-top: 18px; }
+  .stat-box .label { font-size: 11.5px; color: var(--ink-faint); margin-bottom: 4px; }
+  .stat-box .value { font-family: var(--font-display); font-size: 22px; font-weight:600; }
+  .badge { display:inline-block; padding: 2px 8px; border-radius: 20px; font-size: 11.5px; font-weight:600; }
+  .badge.q { background: var(--negative-soft); color: var(--negative); }
+  .badge.ok { background: var(--positive-soft); color: var(--positive); }
+  .badge.info { background: var(--blue-soft); color: var(--blue); }
+  .dot-badge { width:22px; height:22px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; color:#fff; font-size:9.5px; font-weight:700; flex-shrink:0; }
+  .sched-controls { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:14px; }
+  .seg { display:flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  .seg button { padding:7px 14px; background:var(--panel); border:none; font-size:13px; color:var(--ink-dim); font-weight:600; }
+  .seg button.active { background: var(--accent); color:#fff; }
+  select.month-filter { border:1px solid var(--line); border-radius:8px; padding:7px 10px; font-size:13px; background:var(--panel); color:var(--ink); font-family: inherit; }
+  .game-row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding: 13px 4px; border-bottom: 1px solid var(--line); cursor:pointer; flex-wrap:wrap; }
+  .game-row:hover { background: var(--accent-soft); }
+  .game-row:last-child { border-bottom:none; }
+  .game-left { display:flex; align-items:center; gap:14px; min-width:0; }
+  .game-date { width:78px; flex-shrink:0; font-size:13px; color:var(--ink-dim); }
+  .game-opp { font-weight:600; font-size:14.5px; }
+  .game-right { display:flex; align-items:center; gap:16px; font-size:13px; color: var(--ink-dim); flex-wrap:wrap; }
+  .game-detail { display:none; padding: 16px 6px 20px 6px; border-bottom:1px solid var(--line); }
+  .game-detail.open { display:block; }
+  .detail-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:18px; margin-top:14px; }
+  .detail-col h4 { margin:0 0 8px 0; font-size:12.5px; color:var(--ink-faint); font-weight:600; }
+  .prob-bar { height:10px; border-radius:6px; background: var(--negative); overflow:hidden; display:flex; margin: 8px 0; }
+  .prob-bar .fill { background: var(--accent); height:100%; }
+  .explain-btn { border:1px solid var(--accent); color: var(--accent); background:none; border-radius:6px; padding:6px 12px; font-size:12.5px; font-weight:600; margin-top:8px; }
+  .explain-btn:hover { background: var(--accent); color:#fff; }
+  .explain-text { font-size:13px; color:var(--ink-dim); margin-top:10px; }
+  .explain-text ul { margin: 4px 0 0 0; padding-left: 18px; }
+  .lines-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px,1fr)); gap:16px; }
+  .line-card { border:1px solid var(--line); border-radius:8px; padding:12px 14px; }
+  .line-card h4 { margin:0 0 8px 0; font-size:12px; color:var(--ink-faint); font-weight:700; }
+  .line-slot { display:flex; justify-content:space-between; font-size:13.5px; padding:3px 0; }
+  .line-slot .pos { color:var(--ink-faint); font-size:11.5px; width:26px; flex-shrink:0; }
+  table.roster-table { width:100%; border-collapse: collapse; font-size:13.5px; }
+  table.roster-table th { text-align:left; font-size:11.5px; color:var(--ink-faint); font-weight:600; padding:8px 6px; border-bottom:1px solid var(--line); }
+  table.roster-table td { padding:9px 6px; border-bottom:1px solid var(--line); }
+  table.roster-table tr:last-child td { border-bottom:none; }
+  .leader-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); gap:14px; }
+  .leader-box { border:1px solid var(--line); border-radius:8px; padding:14px; }
+  .leader-box .cat { font-size:11.5px; color:var(--ink-faint); margin-bottom:4px; }
+  .leader-box .val { font-family: var(--font-display); font-size:24px; font-weight:600; }
+  .leader-box .who { font-size:13px; color:var(--ink-dim); margin-top:2px; }
+  .empty-state { text-align:center; padding: 36px 20px; color: var(--ink-dim); }
+  .empty-state .big { font-family: var(--font-display); font-size:19px; color: var(--ink); margin-bottom:6px; }
+  .news-item { padding: 14px 0; border-bottom:1px solid var(--line); }
+  .news-item:last-child { border-bottom:none; }
+  .news-item h3 { font-family: var(--font-display); font-size:17px; margin:0 0 5px 0; font-weight:600; }
+  .news-meta { font-size:12px; color:var(--ink-faint); margin-bottom:6px; }
+  .news-summary { font-size:14px; color:var(--ink-dim); }
+  .social-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(210px,1fr)); gap:12px; }
+  .social-card { border:1px solid var(--line); border-radius:8px; padding:13px 14px; display:flex; align-items:center; gap:12px; }
+  .social-card .name { font-weight:600; font-size:13.5px; }
+  .social-links { display:flex; gap:10px; margin-top:4px; font-size:12.5px; }
+  footer.app-footer { border-top:1px solid var(--line); padding: 20px 0 40px 0; color: var(--ink-faint); font-size:12px; }
+  @media (max-width: 600px) { .brand-text h1 { font-size: 22px; } .hero-team { font-size: 24px; } table.roster-table { font-size: 12.5px; } }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-row">
+    <div class="brand">
+      <div class="brand-badge">COL</div>
+      <div class="brand-text"><h1>Avalanche Hub</h1><p>Colorado Avalanche · 2026-27 season</p></div>
+    </div>
+    <div style="text-align:right;">
+      <div class="live-status">
+        <span class="live-dot pulse"></span>
+        <span id="refreshedAgo">loading…</span>
+        <button class="refresh-btn" id="manualRefreshBtn" title="Re-check data.json now">Check now</button>
+      </div>
+      <div class="hint" style="margin-top:4px;">Schedule, scores &amp; ratings update automatically every hour.</div>
+    </div>
+  </div>
+  <div class="wrap">
+    <nav class="tabs" id="tabNav">
+      <button data-view="overview" class="active">Overview</button>
+      <button data-view="schedule">Schedule</button>
+      <button data-view="roster">Roster &amp; Lines</button>
+      <button data-view="stats">Stats</button>
+      <button data-view="news">News</button>
+      <button data-view="social">Social</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="view active" id="view-overview"><div id="overviewContent"></div></section>
+
+  <section class="view" id="view-schedule">
+    <h2 class="section-title">Schedule</h2>
+    <div class="sched-controls">
+      <div class="seg" id="pastUpcomingSeg">
+        <button data-f="upcoming" class="active">Upcoming</button>
+        <button data-f="past">Past</button>
+        <button data-f="all">All</button>
+      </div>
+      <select class="month-filter" id="monthFilter"><option value="all">All months</option></select>
+    </div>
+    <div class="panel" id="scheduleList"></div>
+  </section>
+
+  <section class="view" id="view-roster">
+    <h2 class="section-title">Projected Lines</h2>
+    <div class="panel">
+      <div class="note-box" id="linesDisclaimer"></div>
+      <div class="lines-grid" id="linesGrid" style="margin-top:14px;"></div>
+    </div>
+    <h2 class="section-title">Full Roster</h2>
+    <div class="panel"><table class="roster-table" id="rosterTable"></table></div>
+  </section>
+
+  <section class="view" id="view-stats">
+    <h2 class="section-title">2026-27 Trending &amp; Lagging</h2>
+    <div class="panel" id="trendingPanel"></div>
+    <h2 class="section-title">2025-26 Season Leaders</h2>
+    <div class="panel"><div class="leader-grid" id="leaderGrid"></div></div>
+    <h2 class="section-title">League Context</h2>
+    <div class="panel" id="leagueContext"></div>
+  </section>
+
+  <section class="view" id="view-news">
+    <h2 class="section-title">News Feed</h2>
+    <div class="panel" id="newsList"></div>
+    <p class="hint">Hand-curated in data.json — the hourly job doesn't touch this section. Edit it (or ask Claude to help) whenever you want fresh headlines.</p>
+  </section>
+
+  <section class="view" id="view-social">
+    <h2 class="section-title">Follow the League</h2>
+    <div class="panel"><div class="social-grid" id="socialGrid"></div></div>
+  </section>
+</main>
+
+<footer class="app-footer">
+  <div class="wrap">Win probabilities are a simplified Elo-based model — home ice, injuries and projected goalies factored in, real results folded in automatically — not a sportsbook price. 🏒</div>
+</footer>
+
+<script>
+let state = {
+  team: {}, opponents: {}, roster: { players: [], lines: { forwardLines: [], defensePairs: [], extras: [], powerPlay1: [], powerPlay2: [], goalies: {} } },
+  injuries: { items: [] }, schedule: { games: [] }, statsLastSeason: { leaders: {}, leagueContext: {} },
+  statsCurrentSeason: { gameLog: [] }, news: { items: [] }, modelConfig: {}, meta: { lastRefreshed: new Date().toISOString(), note: '' },
+  scheduleFilter: 'upcoming', monthFilter: 'all', openGameId: null,
+};
+
+function applyJson(json) {
+  state.team = json.team_col || state.team;
+  state.opponents = json.opponents || state.opponents;
+  state.roster = json.roster || state.roster;
+  state.injuries = json.injuries || state.injuries;
+  state.schedule = json.schedule || state.schedule;
+  state.statsLastSeason = json.stats_last_season || state.statsLastSeason;
+  state.statsCurrentSeason = json.stats_current_season || state.statsCurrentSeason;
+  state.news = json.news || state.news;
+  state.modelConfig = json.model_config || state.modelConfig;
+  state.meta = json.meta || state.meta;
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('./data.json', { cache: 'no-store' });
+    const json = await res.json();
+    const changed = json.meta && json.meta.lastRefreshed !== state.meta.lastRefreshed;
+    applyJson(json);
+    return changed;
+  } catch (e) {
+    console.error('Failed to load data.json', e);
+    return false;
+  }
+}
+
+function tickAgo() {
+  const el = document.getElementById('refreshedAgo');
+  if (!el || !state.meta.lastRefreshed) return;
+  const then = new Date(state.meta.lastRefreshed).getTime();
+  const s = Math.max(0, Math.floor((Date.now() - then) / 1000));
+  let label;
+  if (s < 60) label = 'Updated ' + s + 's ago';
+  else if (s < 3600) label = 'Updated ' + Math.floor(s / 60) + 'm ago';
+  else if (s < 86400) label = 'Updated ' + Math.floor(s / 3600) + 'h ago';
+  else label = 'Updated ' + Math.floor(s / 86400) + 'd ago';
+  el.textContent = label;
+}
+
+async function pollForUpdates() {
+  const changed = await loadData();
+  if (changed) renderAll(); else tickAgo();
+}
+
+// ---------- prediction engine ----------
+function americanOdds(p) {
+  if (p <= 0 || p >= 1) return p >= 1 ? -100000 : 100000;
+  if (p >= 0.5) return Math.round(-100 * p / (1 - p));
+  return Math.round(100 * (1 - p) / p);
+}
+function fmtOdds(n) { return n > 0 ? '+' + n : '' + n; }
+
+function colInjuryPenalty() {
+  const cfg = state.modelConfig.injuryEloPenalty || {};
+  let total = 0; const breakdown = [];
+  (state.injuries.items || []).forEach(inj => {
+    const weight = /out/i.test(inj.status) ? 1 : 0.5;
+    const pts = Math.round((inj.impactElo || cfg.topSix || 10) * weight);
+    total += pts;
+    breakdown.push(inj.player + ' (' + inj.status + '): -' + pts + ' Elo');
+  });
+  return { total, breakdown };
+}
+
+function computePrediction(game) {
+  const opp = state.opponents[game.opp] || { name: game.opp, elo: 1500 };
+  const hfa = state.modelConfig.homeAdvantageElo || 40;
+  const injPen = colInjuryPenalty();
+  let colElo = (state.team.elo || 1500) - injPen.total;
+  const backupPenalty = state.modelConfig.backupGoaliePenalty || 15;
+  const goalieNote = [];
+  const starter = state.roster.lines && state.roster.lines.goalies ? state.roster.lines.goalies.starter : null;
+  if (game.projectedGoalie && starter && game.projectedGoalie !== starter) {
+    colElo -= backupPenalty;
+    goalieNote.push(game.projectedGoalie + ' projected (backup): -' + backupPenalty + ' Elo');
+  }
+  const isHome = game.homeAway === 'home';
+  const homeElo = isHome ? colElo + hfa : opp.elo;
+  const awayElo = isHome ? opp.elo : colElo + hfa;
+  const homeProb = 1 / (1 + Math.pow(10, -(homeElo - awayElo) / 400));
+  const colProb = isHome ? homeProb : (1 - homeProb);
+  const oppProb = 1 - colProb;
+
+  const gamesLogged = (state.statsCurrentSeason.gameLog || []).length;
+  let confidence;
+  if (gamesLogged === 0) confidence = 'Preliminary — preseason model';
+  else if (gamesLogged < 8) confidence = 'Building — early-season sample';
+  else if (gamesLogged < 20) confidence = 'Moderate';
+  else confidence = 'High';
+  const daysSince = (Date.now() - new Date(state.meta.lastRefreshed).getTime()) / 86400000;
+  if (daysSince > 2) confidence += ' (data ' + Math.floor(daysSince) + 'd old)';
+
+  const favIsCol = colProb >= 0.5;
+  const puckLine = favIsCol ? { col: '-1.5', opp: '+1.5' } : { col: '+1.5', opp: '-1.5' };
+
+  return {
+    colProb, oppProb, colOdds: americanOdds(colProb), oppOdds: americanOdds(oppProb),
+    puckLine, favIsCol, confidence,
+    breakdown: [
+      (state.team.shortName || 'COL') + ' base Elo: ' + Math.round(state.team.elo || 1500),
+      ...injPen.breakdown, ...goalieNote,
+      (isHome ? (state.team.shortName || 'COL') : opp.name) + ' home ice: +' + hfa + ' Elo',
+      opp.name + ' Elo: ' + Math.round(opp.elo),
+    ],
+  };
+}
+
+// ---------- rendering (identical structure to the in-chat version) ----------
+function teamBadge(abbr, size) {
+  size = size || 22;
+  const t = abbr === 'COL' ? state.team : (state.opponents[abbr] || {});
+  const color = (t.colors && t.colors.primary) || '#666';
+  return '<span class="dot-badge" style="width:' + size + 'px;height:' + size + 'px;font-size:' + Math.round(size * 0.42) + 'px;background:' + color + ';">' + abbr + '</span>';
+}
+function parseGameDate(g) { return new Date(g.date + 'T12:00:00'); }
+function fmtDate(g) { return parseGameDate(g).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); }
+function fmtDateLong(g) { return parseGameDate(g).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }); }
+
+function getNextGame() {
+  const now = new Date(); now.setHours(0,0,0,0);
+  const upcoming = (state.schedule.games || []).filter(g => parseGameDate(g) >= now && g.status !== 'final');
+  return upcoming.length ? upcoming[0] : (state.schedule.games || [])[state.schedule.games.length - 1];
+}
+
+function renderOverview() {
+  const g = getNextGame();
+  if (!g) { document.getElementById('overviewContent').innerHTML = '<div class="empty-state">No schedule data yet.</div>'; return; }
+  const opp = state.opponents[g.opp] || { name: g.opp };
+  const pred = computePrediction(g);
+  const isHome = g.homeAway === 'home';
+  const venueName = isHome ? (state.team.arena ? state.team.arena.name : '') : (opp.venue || '');
+  const venueCity = isHome ? state.team.city : (opp.venueCity || '');
+  const mapsQuery = encodeURIComponent(venueName + ', ' + venueCity);
+  const ls = state.team.lastSeason || {};
+
+  document.getElementById('overviewContent').innerHTML = `
+    <div class="hero">
+      <div class="hero-eyebrow">Next game — ${fmtDateLong(g)} · ${g.time}${g.tv ? ' · ' + g.tv : ''}</div>
+      <div class="hero-matchup">
+        <span class="hero-team">${isHome ? state.team.shortName : opp.name}</span>
+        <span class="vs">${isHome ? 'vs' : '@'}</span>
+        <span class="hero-team">${isHome ? opp.name : state.team.shortName}</span>
+      </div>
+      <div class="hero-meta">
+        ${venueName}, ${venueCity} · <a href="https://www.google.com/maps/search/?api=1&query=${mapsQuery}" target="_blank" rel="noopener">Get directions</a>
+        ${g.note ? ' · <span class="dim">' + g.note + '</span>' : ''}
+      </div>
+      <div class="hero-grid">
+        <div class="stat-box"><div class="label">${state.team.shortName} win probability</div><div class="value">${Math.round(pred.colProb*100)}%</div></div>
+        <div class="stat-box"><div class="label">Model moneyline</div><div class="value">${fmtOdds(pred.colOdds)}</div></div>
+        <div class="stat-box"><div class="label">Model puck line</div><div class="value">${pred.puckLine.col}</div></div>
+        <div class="stat-box"><div class="label">Confidence</div><div class="value" style="font-size:15px;">${pred.confidence}</div></div>
+      </div>
+      <div style="margin-top:14px;">
+        <button class="explain-btn" onclick="toggleExplain('explain-overview', '${g.id}')">Why this pick</button>
+        <div class="explain-text" id="explain-overview" style="display:none;"></div>
+      </div>
+    </div>
+    <div class="panel">
+      <h2 class="section-title" style="margin-bottom:10px;">Team snapshot</h2>
+      <div class="hero-grid">
+        <div class="stat-box"><div class="label">2025-26 record</div><div class="value">${ls.record||'—'}</div></div>
+        <div class="stat-box"><div class="label">Finish</div><div class="value" style="font-size:16px;">${ls.finish||'—'}</div></div>
+        <div class="stat-box"><div class="label">Playoffs</div><div class="value" style="font-size:15px;">${ls.playoffResult||'—'}</div></div>
+        <div class="stat-box"><div class="label">Coach</div><div class="value" style="font-size:18px;">${state.team.coach||'—'}</div></div>
+      </div>
+      <div class="note-box" style="margin-top:16px;">${state.meta.note || ''}</div>
+    </div>
+    <div class="panel">
+      <h2 class="section-title" style="margin-bottom:10px;">Current injuries</h2>
+      ${renderInjuryList()}
+    </div>
+  `;
+}
+
+function renderInjuryList() {
+  const items = state.injuries.items || [];
+  if (!items.length) return '<div class="hint">No injuries reported.</div>';
+  return items.map(inj => `
+    <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);">
+      <div><strong>${inj.player}</strong> <span class="hint">(${inj.pos})</span> — ${inj.injury}</div>
+      <span class="badge q">${inj.status}</span>
+    </div>`).join('');
+}
+
+function renderSchedule() {
+  const now = new Date(); now.setHours(0,0,0,0);
+  let games = (state.schedule.games || []).slice();
+  if (state.scheduleFilter === 'upcoming') games = games.filter(g => parseGameDate(g) >= now);
+  else if (state.scheduleFilter === 'past') games = games.filter(g => parseGameDate(g) < now || g.status === 'final');
+  if (state.monthFilter !== 'all') games = games.filter(g => g.date.slice(0,7) === state.monthFilter);
+
+  const monthSel = document.getElementById('monthFilter');
+  if (monthSel.options.length <= 1 && state.schedule.games.length) {
+    const months = [...new Set(state.schedule.games.map(g => g.date.slice(0,7)))];
+    months.forEach(m => {
+      const opt = document.createElement('option');
+      opt.value = m;
+      opt.textContent = new Date(m + '-02T12:00:00').toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+      monthSel.appendChild(opt);
+    });
+  }
+
+  if (!games.length) {
+    document.getElementById('scheduleList').innerHTML = `<div class="empty-state"><div class="big">No games in this view</div><div>Try a different filter, or check back after the next refresh.</div></div>`;
+    return;
+  }
+
+  document.getElementById('scheduleList').innerHTML = games.map(g => {
+    const opp = state.opponents[g.opp] || { name: g.opp };
+    const isHome = g.homeAway === 'home';
+    const pred = computePrediction(g);
+    const scoreLine = g.status === 'final' ? `<span class="badge ok">Final ${g.scoreCol}-${g.scoreOpp}</span>` : '';
+    return `
+      <div class="game-row" onclick="toggleGame('${g.id}')">
+        <div class="game-left">
+          <div class="game-date">${fmtDate(g)}</div>
+          ${teamBadge(g.opp)}
+          <div class="game-opp">${isHome ? 'vs' : '@'} ${opp.name}</div>
+        </div>
+        <div class="game-right">
+          <span>${g.time}</span>
+          ${g.tv ? '<span class="badge info">' + g.tv + '</span>' : ''}
+          ${scoreLine || '<span>' + state.team.shortName + ' ' + Math.round(pred.colProb*100) + '%</span>'}
+        </div>
+      </div>
+      <div class="game-detail" id="detail-${g.id}"></div>`;
+  }).join('');
+
+  if (state.openGameId) {
+    const el = document.getElementById('detail-' + state.openGameId);
+    if (el) { el.classList.add('open'); el.innerHTML = renderGameDetail(state.openGameId); }
+  }
+}
+
+function renderGameDetail(gameId) {
+  const g = state.schedule.games.find(x => x.id === gameId);
+  if (!g) return '';
+  const opp = state.opponents[g.opp] || { name: g.opp };
+  const isHome = g.homeAway === 'home';
+  const pred = computePrediction(g);
+  const venueName = isHome ? (state.team.arena ? state.team.arena.name : 'TBD') : (opp.venue || 'TBD');
+  const venueCity = isHome ? state.team.city : (opp.venueCity || '');
+  const mapsQuery = encodeURIComponent(venueName + ', ' + venueCity);
+  const injHtml = (state.injuries.items || []).map(i => i.player + ' — ' + i.status).join('<br>') || 'None reported';
+
+  return `
+    <div class="detail-grid">
+      <div class="detail-col">
+        <h4>Matchup</h4>
+        <div>${venueName}, ${venueCity}</div>
+        <div><a href="https://www.google.com/maps/search/?api=1&query=${mapsQuery}" target="_blank" rel="noopener">Get directions</a></div>
+        <div style="margin-top:8px;">Broadcast: ${g.tv || 'Local/Altitude'}</div>
+        <div style="margin-top:8px;">Projected ${state.team.shortName} goalie: <strong>${g.projectedGoalie}</strong></div>
+        ${g.status === 'final' ? '<div style="margin-top:8px;">Final score: ' + state.team.shortName + ' ' + g.scoreCol + ' – ' + opp.name + ' ' + g.scoreOpp + '</div>' : ''}
+      </div>
+      <div class="detail-col"><h4>${state.team.shortName} injuries</h4><div style="font-size:13.5px;">${injHtml}</div></div>
+      <div class="detail-col">
+        <h4>Model prediction</h4>
+        <div style="font-size:13.5px;">${state.team.shortName} ${Math.round(pred.colProb*100)}% (${fmtOdds(pred.colOdds)}) · ${opp.name} ${Math.round(pred.oppProb*100)}% (${fmtOdds(pred.oppOdds)})</div>
+        <div class="prob-bar"><div class="fill" style="width:${Math.round(pred.colProb*100)}%;"></div></div>
+        <div style="font-size:12.5px;">Puck line: ${state.team.shortName} ${pred.puckLine.col} / ${opp.name} ${pred.puckLine.opp}</div>
+        <div style="font-size:12px; color:var(--ink-faint); margin-top:4px;">Confidence: ${pred.confidence}</div>
+        <button class="explain-btn" onclick="toggleExplain('explain-${g.id}', '${g.id}')">Why this pick</button>
+        <div class="explain-text" id="explain-${g.id}" style="display:none;"></div>
+      </div>
+    </div>`;
+}
+
+function toggleGame(gameId) { state.openGameId = state.openGameId === gameId ? null : gameId; renderSchedule(); }
+
+function toggleExplain(elId, gameId) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  if (el.style.display === 'block') { el.style.display = 'none'; return; }
+  const pred = computePrediction(state.schedule.games.find(g => g.id === gameId));
+  el.innerHTML = 'How the model got here:<ul>' + pred.breakdown.map(b => '<li>' + b + '</li>').join('') + '</ul>';
+  el.style.display = 'block';
+}
+window.toggleGame = toggleGame;
+window.toggleExplain = toggleExplain;
+
+function renderRoster() {
+  const lines = state.roster.lines || {};
+  document.getElementById('linesDisclaimer').textContent = lines.disclaimer || '';
+  const cards = [];
+  (lines.forwardLines||[]).forEach(l => cards.push(`<div class="line-card"><h4>LINE ${l.line}</h4>
+    <div class="line-slot"><span class="pos">LW</span>${l.lw}</div><div class="line-slot"><span class="pos">C</span>${l.c}</div><div class="line-slot"><span class="pos">RW</span>${l.rw}</div></div>`));
+  (lines.defensePairs||[]).forEach(pr => cards.push(`<div class="line-card"><h4>PAIR ${pr.pair}</h4>
+    <div class="line-slot"><span class="pos">LD</span>${pr.ld}</div><div class="line-slot"><span class="pos">RD</span>${pr.rd}${pr.note ? ' <span class="hint">(' + pr.note + ')</span>' : ''}</div></div>`));
+  if (lines.goalies) cards.push(`<div class="line-card"><h4>GOALIES</h4><div class="line-slot"><span class="pos">G1</span>${lines.goalies.starter}</div><div class="line-slot"><span class="pos">G2</span>${lines.goalies.backup}</div></div>`);
+  if (lines.powerPlay1) cards.push(`<div class="line-card"><h4>PP1</h4>${lines.powerPlay1.map(n => '<div class="line-slot">' + n + '</div>').join('')}</div>`);
+  if (lines.powerPlay2) cards.push(`<div class="line-card"><h4>PP2</h4>${lines.powerPlay2.map(n => '<div class="line-slot">' + n + '</div>').join('')}</div>`);
+  if (lines.extras) cards.push(`<div class="line-card"><h4>EXTRA FORWARDS</h4>${lines.extras.map(n => '<div class="line-slot">' + n + '</div>').join('')}</div>`);
+  document.getElementById('linesGrid').innerHTML = cards.join('');
+
+  const posOrder = { C:0, LW:1, RW:2, F:2.5, D:3, G:4 };
+  const players = (state.roster.players||[]).slice().sort((a,b) => (posOrder[a.pos]-posOrder[b.pos]) || a.name.localeCompare(b.name));
+  document.getElementById('rosterTable').innerHTML = `
+    <thead><tr><th>#</th><th>Player</th><th>Pos</th><th>Ht</th><th>Wt</th><th>Age</th><th>Birthplace</th><th>Status</th></tr></thead>
+    <tbody>${players.map(pl => `<tr>
+      <td>${pl.num}</td><td>${pl.name}${pl.note ? ' <span class="hint">— ' + pl.note + '</span>' : ''}</td><td>${pl.pos}</td>
+      <td>${pl.ht}</td><td>${pl.wt}</td><td>${pl.age}</td><td>${pl.birthplace}</td>
+      <td>${pl.status === 'Healthy' ? '<span class="badge ok">Healthy</span>' : '<span class="badge q">' + pl.status + '</span>'}</td>
+    </tr>`).join('')}</tbody>`;
+}
+
+function renderStats() {
+  const gameLog = state.statsCurrentSeason.gameLog || [];
+  const trendingEl = document.getElementById('trendingPanel');
+  trendingEl.innerHTML = !gameLog.length
+    ? `<div class="empty-state"><div class="big">Trending &amp; lagging players will appear here once games are played</div><div>Team-level results already update automatically every hour. Per-player trending needs box-score data, which is a good next enhancement to the refresh script.</div></div>`
+    : '<div class="hint">' + gameLog.length + ' games logged this season. Team record: ' + gameLog.filter(g=>g.colWon).length + '-' + gameLog.filter(g=>!g.colWon).length + '.</div>';
+
+  const ls = state.statsLastSeason; const leaders = ls.leaders || {};
+  const cats = [['Goals',leaders.goals],['Assists',leaders.assists],['Points',leaders.points],['+/-',leaders.plusMinus],['PIM',leaders.pim],['Wins',leaders.wins],['GAA',leaders.gaa]].filter(([,d])=>d);
+  document.getElementById('leaderGrid').innerHTML = cats.map(([label,d]) => `<div class="leader-box"><div class="cat">${label}</div><div class="val">${d.value}</div><div class="who">${d.player}</div></div>`).join('');
+
+  const lc = ls.leagueContext || {};
+  document.getElementById('leagueContext').innerHTML = `<div style="display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:14px;">
+    <div><div class="hint">2025-26 Stanley Cup champion</div><strong>${lc.stanleyCupChampion||'—'}</strong></div>
+    <div><div class="hint">Hart Trophy (MVP)</div><strong>${lc.hartTrophy||'—'}</strong></div>
+    <div><div class="hint">Calder Trophy (Rookie)</div><strong>${lc.calderTrophy||'—'}</strong></div>
+    <div><div class="hint">Vezina Trophy (Goalie)</div><strong>${lc.vezinaTrophy||'—'}</strong></div>
+    <div><div class="hint">League points leader</div><strong>${lc.pointsLeader ? lc.pointsLeader.player + ' (' + lc.pointsLeader.value + ')' : '—'}</strong></div>
+    <div><div class="hint">League goals leader</div><strong>${lc.goalsLeader ? lc.goalsLeader.player + ' (' + lc.goalsLeader.value + ')' : '—'}</strong></div>
+  </div>`;
+}
+
+function renderNews() {
+  const items = (state.news.items||[]).slice().sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
+  document.getElementById('newsList').innerHTML = items.map(n => `<div class="news-item">
+    <h3><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></h3>
+    <div class="news-meta">${n.source} · ${n.publishedAt}</div>
+    <div class="news-summary">${n.summary}</div></div>`).join('');
+}
+
+function renderSocial() {
+  const all = [['COL', state.team]].concat(Object.keys(state.opponents).sort().map(k => [k, state.opponents[k]]));
+  document.getElementById('socialGrid').innerHTML = all.map(([abbr,t]) => {
+    const ig = (t.social && t.social.instagram) || '#';
+    const x = (t.social && t.social.x) || '#';
+    return `<div class="social-card">${teamBadge(abbr,36)}<div><div class="name">${t.name||t.shortName}</div>
+      <div class="social-links"><a href="${ig}" target="_blank" rel="noopener">Instagram</a><a href="${x}" target="_blank" rel="noopener">X</a></div></div></div>`;
+  }).join('');
+}
+
+function renderAll() { renderOverview(); renderSchedule(); renderRoster(); renderStats(); renderNews(); renderSocial(); tickAgo(); }
+
+document.getElementById('tabNav').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-view]'); if (!btn) return;
+  document.querySelectorAll('#tabNav button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('section.view').forEach(s => s.classList.remove('active'));
+  document.getElementById('view-' + btn.dataset.view).classList.add('active');
+});
+document.getElementById('pastUpcomingSeg').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-f]'); if (!btn) return;
+  document.querySelectorAll('#pastUpcomingSeg button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active'); state.scheduleFilter = btn.dataset.f; state.openGameId = null; renderSchedule();
+});
+document.getElementById('monthFilter').addEventListener('change', (e) => { state.monthFilter = e.target.value; renderSchedule(); });
+document.getElementById('manualRefreshBtn').addEventListener('click', pollForUpdates);
+
+(async function init() {
+  await loadData();
+  renderAll();
+  setInterval(tickAgo, 1000);
+  setInterval(pollForUpdates, 60000);
+})();
+</script>
+</body>
+</html>
