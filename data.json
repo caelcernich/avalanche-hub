@@ -43,7 +43,7 @@
         "Central Division Champions"
       ]
     },
-    "elo": 1590
+    "elo": 1586
   },
   "opponents": {
     "LA": {
@@ -70,7 +70,7 @@
         "instagram": "https://www.instagram.com/stlouisblues",
         "x": "https://twitter.com/StLouisBlues"
       },
-      "elo": 1497,
+      "elo": 1481,
       "venue": "Enterprise Center",
       "venueCity": "St. Louis, MO"
     },
@@ -84,7 +84,7 @@
         "instagram": "https://www.instagram.com/nhljets",
         "x": "https://twitter.com/NHLJets"
       },
-      "elo": 1527,
+      "elo": 1469,
       "venue": "Canada Life Centre",
       "venueCity": "Winnipeg, MB"
     },
@@ -98,7 +98,7 @@
         "instagram": "https://www.instagram.com/calgaryflames",
         "x": "https://twitter.com/NHLFlames"
       },
-      "elo": 1458,
+      "elo": 1454,
       "venue": "Scotiabank Saddledome",
       "venueCity": "Calgary, AB"
     },
@@ -112,7 +112,7 @@
         "instagram": "https://www.instagram.com/mapleleafs",
         "x": "https://twitter.com/MapleLeafs"
       },
-      "elo": 1530,
+      "elo": 1457,
       "venue": "Scotiabank Arena",
       "venueCity": "Toronto, ON"
     },
@@ -126,7 +126,7 @@
         "instagram": "https://www.instagram.com/dallasstars",
         "x": "https://twitter.com/DallasStars"
       },
-      "elo": 1533,
+      "elo": 1559,
       "venue": "American Airlines Center",
       "venueCity": "Dallas, TX"
     },
@@ -140,7 +140,7 @@
         "instagram": "https://www.instagram.com/pittsburghpenguins",
         "x": "https://twitter.com/penguins"
       },
-      "elo": 1479,
+      "elo": 1517,
       "venue": "PPG Paints Arena",
       "venueCity": "Pittsburgh, PA"
     },
@@ -154,7 +154,7 @@
         "instagram": "https://www.instagram.com/nhlflyers",
         "x": "https://twitter.com/NHLFlyers"
       },
-      "elo": 1467,
+      "elo": 1517,
       "venue": "Xfinity Mobile Arena",
       "venueCity": "Philadelphia, PA"
     },
@@ -196,7 +196,7 @@
         "instagram": "https://www.instagram.com/predsnhl",
         "x": "https://twitter.com/PredsNHL"
       },
-      "elo": 1473,
+      "elo": 1481,
       "venue": "Bridgestone Arena",
       "venueCity": "Nashville, TN"
     },
@@ -210,7 +210,7 @@
         "instagram": "https://www.instagram.com/detroitredwings",
         "x": "https://twitter.com/DetroitRedWings"
       },
-      "elo": 1503,
+      "elo": 1499,
       "venue": "Little Caesars Arena",
       "venueCity": "Detroit, MI"
     },
@@ -224,7 +224,7 @@
         "instagram": "https://www.instagram.com/ottawasenators",
         "x": "https://twitter.com/Senators"
       },
-      "elo": 1497,
+      "elo": 1520,
       "venue": "Canadian Tire Centre",
       "venueCity": "Ottawa, ON"
     },
@@ -238,7 +238,7 @@
         "instagram": "https://www.instagram.com/canadiens",
         "x": "https://twitter.com/CanadiensMTL"
       },
-      "elo": 1485,
+      "elo": 1541,
       "venue": "Bell Centre",
       "venueCity": "Montreal, QC"
     },
@@ -252,7 +252,7 @@
         "instagram": "https://www.instagram.com/utahmammoth",
         "x": "https://twitter.com/UtahMammoth"
       },
-      "elo": 1485,
+      "elo": 1499,
       "venue": "Delta Center",
       "venueCity": "Salt Lake City, UT"
     },
@@ -266,7 +266,7 @@
         "instagram": "https://www.instagram.com/anaheimducks",
         "x": "https://twitter.com/AnaheimDucks"
       },
-      "elo": 1479,
+      "elo": 1499,
       "venue": "Honda Center",
       "venueCity": "Anaheim, CA"
     },
@@ -280,7 +280,7 @@
         "instagram": "https://www.instagram.com/mnwild",
         "x": "https://twitter.com/mnwild"
       },
-      "elo": 1509,
+      "elo": 1535,
       "venue": "Grand Casino Arena",
       "venueCity": "Saint Paul, MN"
     },
@@ -308,7 +308,7 @@
         "instagram": "https://www.instagram.com/nhlbruins",
         "x": "https://twitter.com/NHLBruins"
       },
-      "elo": 1503,
+      "elo": 1523,
       "venue": "TD Garden",
       "venueCity": "Boston, MA"
     },
@@ -322,7 +322,7 @@
         "instagram": "https://www.instagram.com/nyrangers",
         "x": "https://twitter.com/NYRangers"
       },
-      "elo": 1515,
+      "elo": 1454,
       "venue": "Madison Square Garden",
       "venueCity": "New York, NY"
     },
@@ -336,7 +336,7 @@
         "instagram": "https://www.instagram.com/nyislanders",
         "x": "https://twitter.com/NYIslanders"
       },
-      "elo": 1473,
+      "elo": 1496,
       "venue": "UBS Arena",
       "venueCity": "Elmont, NY"
     },
@@ -364,7 +364,7 @@
         "instagram": "https://www.instagram.com/carolinahurricanes",
         "x": "https://twitter.com/Canes"
       },
-      "elo": 1539,
+      "elo": 1562,
       "venue": "Lenovo Center",
       "venueCity": "Raleigh, NC"
     },
@@ -378,7 +378,7 @@
         "instagram": "https://www.instagram.com/seattlekraken",
         "x": "https://twitter.com/SeattleKraken"
       },
-      "elo": 1464,
+      "elo": 1460,
       "venue": "Climate Pledge Arena",
       "venueCity": "Seattle, WA"
     },
@@ -392,7 +392,7 @@
         "instagram": "https://www.instagram.com/goldenknights",
         "x": "https://twitter.com/GoldenKnights"
       },
-      "elo": 1512,
+      "elo": 1508,
       "venue": "T-Mobile Arena",
       "venueCity": "Las Vegas, NV"
     },
@@ -406,7 +406,7 @@
         "instagram": "https://www.instagram.com/buffalosabres",
         "x": "https://twitter.com/BuffaloSabres"
       },
-      "elo": 1491,
+      "elo": 1550,
       "venue": "KeyBank Center",
       "venueCity": "Buffalo, NY"
     },
@@ -420,7 +420,7 @@
         "instagram": "https://www.instagram.com/vancouvercanucks",
         "x": "https://twitter.com/Canucks"
       },
-      "elo": 1401,
+      "elo": 1397,
       "venue": "Rogers Arena",
       "venueCity": "Vancouver, BC"
     },
@@ -434,7 +434,7 @@
         "instagram": "https://www.instagram.com/edmontonoilers",
         "x": "https://twitter.com/EdmontonOilers"
       },
-      "elo": 1527,
+      "elo": 1502,
       "venue": "Rogers Place",
       "venueCity": "Edmonton, AB"
     },
@@ -448,7 +448,7 @@
         "instagram": "https://www.instagram.com/nhlblackhawks",
         "x": "https://twitter.com/NHLBlackhawks"
       },
-      "elo": 1431,
+      "elo": 1439,
       "venue": "United Center",
       "venueCity": "Chicago, IL"
     },
@@ -476,7 +476,7 @@
         "instagram": "https://www.instagram.com/flapanthers",
         "x": "https://twitter.com/FlaPanthers"
       },
-      "elo": 1521,
+      "elo": 1475,
       "venue": "Amerant Bank Arena",
       "venueCity": "Sunrise, FL"
     }
@@ -484,7 +484,55 @@
   "roster": {
     "players": [
       {
-        "num": "\u2014",
+        "num": "—",
+        "name": "Adam Beckman",
+        "pos": "L",
+        "shot": "L",
+        "ht": "6-2",
+        "wt": 192,
+        "age": 25,
+        "birthplace": "Saskatoon, SK",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": 54,
+        "name": "Gavin Brindley",
+        "pos": "C",
+        "shot": "R",
+        "ht": "5-8",
+        "wt": 173,
+        "age": 21,
+        "birthplace": "Fort Myers, FL",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "Matthew DiMarsico",
+        "pos": "C",
+        "shot": "L",
+        "ht": "6-0",
+        "wt": 181,
+        "age": 22,
+        "birthplace": "Wexford, PA",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "Cooper Gay",
+        "pos": "R",
+        "shot": "L",
+        "ht": "6-4",
+        "wt": 209,
+        "age": 24,
+        "birthplace": "Edina, MN",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
         "name": "Vinnie Hinostroza",
         "pos": "C",
         "shot": "R",
@@ -492,6 +540,18 @@
         "wt": 183,
         "age": 32,
         "birthplace": "Chicago, IL",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "T.J. Hughes",
+        "pos": "R",
+        "shot": "—",
+        "ht": "6-0",
+        "wt": 185,
+        "age": 24,
+        "birthplace": "",
         "status": "Healthy",
         "note": ""
       },
@@ -508,6 +568,66 @@
         "note": ""
       },
       {
+        "num": 17,
+        "name": "Parker Kelly",
+        "pos": "C",
+        "shot": "L",
+        "ht": "6-1",
+        "wt": 185,
+        "age": 27,
+        "birthplace": "Camrose, AB",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "Zachary L'Heureux",
+        "pos": "L",
+        "shot": "L",
+        "ht": "5-11",
+        "wt": 197,
+        "age": 23,
+        "birthplace": "Montréal, QC",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": 92,
+        "name": "Gabriel Landeskog",
+        "pos": "L",
+        "shot": "L",
+        "ht": "6-1",
+        "wt": 215,
+        "age": 33,
+        "birthplace": "Stockholm",
+        "status": "Healthy",
+        "note": "Captain"
+      },
+      {
+        "num": 62,
+        "name": "Artturi Lehkonen",
+        "pos": "L",
+        "shot": "L",
+        "ht": "5-11",
+        "wt": 179,
+        "age": 31,
+        "birthplace": "Piikkio",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "Fabian Lysell",
+        "pos": "R",
+        "shot": "R",
+        "ht": "5-11",
+        "wt": 186,
+        "age": 23,
+        "birthplace": "Gothenburg",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
         "num": 29,
         "name": "Nathan MacKinnon",
         "pos": "C",
@@ -520,14 +640,26 @@
         "note": "Alternate captain"
       },
       {
-        "num": "\u2014",
+        "num": 16,
+        "name": "Taylor Makar",
+        "pos": "L",
+        "shot": "L",
+        "ht": "6-3",
+        "wt": 190,
+        "age": 25,
+        "birthplace": "Calgary, AB",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
         "name": "Georgii Merkulov",
         "pos": "C",
         "shot": "L",
         "ht": "5-11",
-        "wt": 176,
+        "wt": 174,
         "age": 25,
-        "birthplace": "Ryazan, Russia",
+        "birthplace": "Ryazan",
         "status": "Healthy",
         "note": ""
       },
@@ -539,7 +671,7 @@
         "ht": "6-3",
         "wt": 195,
         "age": 27,
-        "birthplace": "Nove Mesto na Morave, Czech Republic",
+        "birthplace": "Nove Mesto na Morave",
         "status": "Healthy",
         "note": ""
       },
@@ -556,93 +688,45 @@
         "note": ""
       },
       {
+        "num": 25,
+        "name": "Logan O'Connor",
+        "pos": "R",
+        "shot": "R",
+        "ht": "6-0",
+        "wt": 175,
+        "age": 30,
+        "birthplace": "Missouri City, TX",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": 85,
+        "name": "Nikita Prishchepov",
+        "pos": "C",
+        "shot": "L",
+        "ht": "6-1",
+        "wt": 194,
+        "age": 22,
+        "birthplace": "Orenburg",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
         "num": 10,
         "name": "Nicolas Roy",
         "pos": "C",
         "shot": "R",
         "ht": "6-4",
-        "wt": 201,
+        "wt": 200,
         "age": 29,
         "birthplace": "Amos, QC",
         "status": "Healthy",
         "note": ""
       },
       {
-        "num": "\u2014",
-        "name": "Fedor Svechkov",
-        "pos": "C",
-        "shot": "L",
-        "ht": "6-0",
-        "wt": 187,
-        "age": 23,
-        "birthplace": "Togliatti, Russia",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": "\u2014",
-        "name": "Adam Beckman",
-        "pos": "LW",
-        "shot": "L",
-        "ht": "6-2",
-        "wt": 182,
-        "age": 25,
-        "birthplace": "Saskatoon, SK",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": 17,
-        "name": "Parker Kelly",
-        "pos": "LW",
-        "shot": "L",
-        "ht": "6-1",
-        "wt": 185,
-        "age": 27,
-        "birthplace": "Camrose, AB",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": "\u2014",
-        "name": "Zachary L'Heureux",
-        "pos": "LW",
-        "shot": "L",
-        "ht": "5-11",
-        "wt": 197,
-        "age": 23,
-        "birthplace": "Montreal, QC",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": 92,
-        "name": "Gabriel Landeskog",
-        "pos": "LW",
-        "shot": "L",
-        "ht": "6-1",
-        "wt": 215,
-        "age": 33,
-        "birthplace": "Stockholm, Sweden",
-        "status": "Healthy",
-        "note": "Captain"
-      },
-      {
-        "num": 62,
-        "name": "Artturi Lehkonen",
-        "pos": "LW",
-        "shot": "L",
-        "ht": "5-11",
-        "wt": 179,
-        "age": 31,
-        "birthplace": "Piikkio, Finland",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": "\u2014",
+        "num": "—",
         "name": "Jaden Schwartz",
-        "pos": "LW",
+        "pos": "C",
         "shot": "L",
         "ht": "5-10",
         "wt": 185,
@@ -652,26 +736,38 @@
         "note": ""
       },
       {
-        "num": 23,
-        "name": "Fabian Lysell",
-        "pos": "RW",
-        "shot": "R",
-        "ht": "5-11",
-        "wt": 181,
+        "num": "—",
+        "name": "Fedor Svechkov",
+        "pos": "C",
+        "shot": "L",
+        "ht": "6-0",
+        "wt": 187,
         "age": 23,
-        "birthplace": "Gothenburg, Sweden",
+        "birthplace": "Togliatti",
         "status": "Healthy",
         "note": ""
       },
       {
-        "num": 25,
-        "name": "Logan O'Connor",
-        "pos": "RW",
-        "shot": "R",
+        "num": 5,
+        "name": "Wyatt Aamodt",
+        "pos": "D",
+        "shot": "L",
         "ht": "6-0",
-        "wt": 175,
-        "age": 30,
-        "birthplace": "Missouri City, TX",
+        "wt": 201,
+        "age": 28,
+        "birthplace": "Hermantown, MN",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": 2,
+        "name": "Sean Behrens",
+        "pos": "D",
+        "shot": "L",
+        "ht": "5-10",
+        "wt": 177,
+        "age": 23,
+        "birthplace": "Barrington, IL",
         "status": "Healthy",
         "note": ""
       },
@@ -688,7 +784,31 @@
         "note": ""
       },
       {
-        "num": "\u2014",
+        "num": "—",
+        "name": "Domenick Fensore",
+        "pos": "D",
+        "shot": "L",
+        "ht": "5-9",
+        "wt": 175,
+        "age": 25,
+        "birthplace": "Thornwood, NY",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": 45,
+        "name": "Alex Gagne",
+        "pos": "D",
+        "shot": "L",
+        "ht": "6-4",
+        "wt": 205,
+        "age": 24,
+        "birthplace": "Bedford, NH",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
         "name": "Noah Juulsen",
         "pos": "D",
         "shot": "R",
@@ -721,7 +841,7 @@
         "age": 27,
         "birthplace": "Calgary, AB",
         "status": "Questionable",
-        "note": "Lower body \u2014 questionable for start of season; alternate captain"
+        "note": "Lower body — questionable for start of season; alternate captain"
       },
       {
         "num": 70,
@@ -748,6 +868,30 @@
         "note": ""
       },
       {
+        "num": 67,
+        "name": "Keaton Middleton",
+        "pos": "D",
+        "shot": "L",
+        "ht": "6-6",
+        "wt": 240,
+        "age": 28,
+        "birthplace": "Edmonton, AB",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "Gustav Stjernberg",
+        "pos": "D",
+        "shot": "R",
+        "ht": "6-4",
+        "wt": 209,
+        "age": 23,
+        "birthplace": "Enebyberg",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
         "num": 7,
         "name": "Devon Toews",
         "pos": "D",
@@ -760,8 +904,32 @@
         "note": ""
       },
       {
+        "num": 89,
+        "name": "Saige Weinstein",
+        "pos": "D",
+        "shot": "L",
+        "ht": "6-1",
+        "wt": 185,
+        "age": 21,
+        "birthplace": "Edmonton, AB",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "Christian Wolanin",
+        "pos": "D",
+        "shot": "L",
+        "ht": "6-2",
+        "wt": 190,
+        "age": 31,
+        "birthplace": "Quebec City, QC",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
         "num": 39,
-        "name": "MacKenzie Blackwood",
+        "name": "Mackenzie Blackwood",
         "pos": "G",
         "shot": "L",
         "ht": "6-4",
@@ -769,7 +937,43 @@
         "age": 29,
         "birthplace": "Thunder Bay, ON",
         "status": "Healthy",
-        "note": "Projected starter"
+        "note": ""
+      },
+      {
+        "num": 50,
+        "name": "Trent Miner",
+        "pos": "G",
+        "shot": "L",
+        "ht": "6-1",
+        "wt": 185,
+        "age": 25,
+        "birthplace": "Brandon, MB",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "Ilya Nabokov",
+        "pos": "G",
+        "shot": "L",
+        "ht": "6-0",
+        "wt": 179,
+        "age": 23,
+        "birthplace": "Kasli",
+        "status": "Healthy",
+        "note": ""
+      },
+      {
+        "num": "—",
+        "name": "Nikita Novosyolov",
+        "pos": "G",
+        "shot": "L",
+        "ht": "6-2",
+        "wt": 172,
+        "age": 22,
+        "birthplace": "Krasnoturyinsk",
+        "status": "Healthy",
+        "note": ""
       },
       {
         "num": 41,
@@ -779,14 +983,14 @@
         "ht": "6-2",
         "wt": 201,
         "age": 34,
-        "birthplace": "Etobicoke, ON",
+        "birthplace": "Brampton, ON",
         "status": "Healthy",
         "note": "Projected backup"
       }
     ],
     "lines": {
       "asOf": "2026-09-17",
-      "disclaimer": "Projected \u2014 Colorado has not announced official regular-season lines yet. Based on training-camp reporting and typical deployment; will update after preseason games and morning skates.",
+      "disclaimer": "Projected — Colorado has not announced official regular-season lines yet. Based on training-camp reporting and typical deployment; will update after preseason games and morning skates.",
       "forwardLines": [
         {
           "line": 1,
@@ -874,6 +1078,58 @@
   "schedule": {
     "games": [
       {
+        "id": "2026-09-20_UTA",
+        "date": "2026-09-20",
+        "opp": "UTA",
+        "homeAway": "home",
+        "time": "7:00 PM ET",
+        "tv": "Utah16",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
+        "id": "2026-09-21_WPG",
+        "date": "2026-09-21",
+        "opp": "WPG",
+        "homeAway": "away",
+        "time": "8:00 PM ET",
+        "tv": "",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
+        "id": "2026-09-25_WPG",
+        "date": "2026-09-25",
+        "opp": "WPG",
+        "homeAway": "home",
+        "time": "8:30 PM ET",
+        "tv": "",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
+        "id": "2026-09-26_UTA",
+        "date": "2026-09-26",
+        "opp": "UTA",
+        "homeAway": "away",
+        "time": "5:00 PM ET",
+        "tv": "Utah16",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2026-09-30_LA",
         "date": "2026-09-30",
         "opp": "LA",
@@ -887,12 +1143,25 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2026-09-30_LAK",
+        "date": "2026-09-30",
+        "opp": "LAK",
+        "homeAway": "home",
+        "time": "10:00 PM ET",
+        "tv": "TNT/truTV/HBO MAX",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2026-10-03_STL",
         "date": "2026-10-03",
         "opp": "STL",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "STLNHL",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -905,7 +1174,7 @@
         "opp": "WPG",
         "homeAway": "away",
         "time": "7:30 PM ET",
-        "tv": "",
+        "tv": "Prime",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -931,7 +1200,7 @@
         "opp": "TOR",
         "homeAway": "home",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "SN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -944,7 +1213,7 @@
         "opp": "DAL",
         "homeAway": "away",
         "time": "8:30 PM ET",
-        "tv": "ESPN",
+        "tv": "ESPN/TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -957,7 +1226,7 @@
         "opp": "DAL",
         "homeAway": "home",
         "time": "8:30 PM ET",
-        "tv": "TNT",
+        "tv": "TNT/truTV/HBO MAX",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -970,7 +1239,7 @@
         "opp": "PIT",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -983,7 +1252,7 @@
         "opp": "PHI",
         "homeAway": "away",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "NBCSP",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1004,6 +1273,19 @@
         "projectedGoalie": "Scott Wedgewood"
       },
       {
+        "id": "2026-10-20_NJD",
+        "date": "2026-10-20",
+        "opp": "NJD",
+        "homeAway": "away",
+        "time": "7:00 PM ET",
+        "tv": "MSG 2/MSG",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2026-10-23_TB",
         "date": "2026-10-23",
         "opp": "TB",
@@ -1017,12 +1299,25 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2026-10-23_TBL",
+        "date": "2026-10-23",
+        "opp": "TBL",
+        "homeAway": "home",
+        "time": "9:00 PM ET",
+        "tv": "TVAS",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2026-10-25_NSH",
         "date": "2026-10-25",
         "opp": "NSH",
         "homeAway": "away",
         "time": "8:00 PM ET",
-        "tv": "",
+        "tv": "SCRIPPS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1043,12 +1338,25 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2026-10-28_NJD",
+        "date": "2026-10-28",
+        "opp": "NJD",
+        "homeAway": "home",
+        "time": "9:00 PM ET",
+        "tv": "MSGSN",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2026-10-31_CGY",
         "date": "2026-10-31",
         "opp": "CGY",
         "homeAway": "home",
         "time": "10:00 PM ET",
-        "tv": "",
+        "tv": "SN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1061,7 +1369,7 @@
         "opp": "CHI",
         "homeAway": "away",
         "time": "8:00 PM ET",
-        "tv": "",
+        "tv": "CHSN+",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1082,12 +1390,25 @@
         "projectedGoalie": "Scott Wedgewood"
       },
       {
+        "id": "2026-11-03_CBJ",
+        "date": "2026-11-03",
+        "opp": "CBJ",
+        "homeAway": "away",
+        "time": "7:00 PM ET",
+        "tv": "CBJNHL",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2026-11-05_NSH",
         "date": "2026-11-05",
         "opp": "NSH",
         "homeAway": "home",
         "time": "9:30 PM ET",
-        "tv": "DIS+",
+        "tv": "ESPN+/HULU/Disney+/TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1100,7 +1421,7 @@
         "opp": "DET",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "DSN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1113,7 +1434,7 @@
         "opp": "TOR",
         "homeAway": "away",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1139,7 +1460,7 @@
         "opp": "MTL",
         "homeAway": "away",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "SNE/TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1165,7 +1486,7 @@
         "opp": "ANA",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1191,7 +1512,7 @@
         "opp": "MIN",
         "homeAway": "away",
         "time": "4:00 PM ET",
-        "tv": "",
+        "tv": "TVAS/MINNHL",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1212,12 +1533,25 @@
         "projectedGoalie": "Scott Wedgewood"
       },
       {
+        "id": "2026-11-28_SJS",
+        "date": "2026-11-28",
+        "opp": "SJS",
+        "homeAway": "home",
+        "time": "9:00 PM ET",
+        "tv": "NBCSCA",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2026-12-01_BOS",
         "date": "2026-12-01",
         "opp": "BOS",
         "homeAway": "away",
-        "time": "7:30 PM ET",
-        "tv": "TNT",
+        "time": "8:00 PM ET",
+        "tv": "TNT/truTV/HBO MAX/TVAS/NESN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1230,7 +1564,7 @@
         "opp": "DET",
         "homeAway": "away",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "DSN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1243,7 +1577,7 @@
         "opp": "NYR",
         "homeAway": "away",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "MSG",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1256,7 +1590,7 @@
         "opp": "NYI",
         "homeAway": "away",
         "time": "1:00 PM ET",
-        "tv": "",
+        "tv": "MSGSN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1269,7 +1603,7 @@
         "opp": "STL",
         "homeAway": "away",
         "time": "8:00 PM ET",
-        "tv": "DIS+",
+        "tv": "ESPN+/HULU/Disney+",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1290,6 +1624,19 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2026-12-12_WSH",
+        "date": "2026-12-12",
+        "opp": "WSH",
+        "homeAway": "home",
+        "time": "9:00 PM ET",
+        "tv": "TVAS/MNMT2",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2026-12-14_UTA",
         "date": "2026-12-14",
         "opp": "UTA",
@@ -1308,7 +1655,7 @@
         "opp": "NYI",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "MSGSN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1321,7 +1668,7 @@
         "opp": "CAR",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "CARNHL",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1360,7 +1707,7 @@
         "opp": "STL",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "STLNHL",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1373,8 +1720,8 @@
         "opp": "UTA",
         "homeAway": "away",
         "time": "6:00 PM ET",
-        "tv": "TNT",
-        "note": "outdoor \u2014 Rice-Eccles Stadium",
+        "tv": "TNT/truTV/HBO MAX/TVAS",
+        "note": "outdoor — Rice-Eccles Stadium",
         "status": "scheduled",
         "scoreCol": null,
         "scoreOpp": null,
@@ -1386,7 +1733,7 @@
         "opp": "VGK",
         "homeAway": "away",
         "time": "10:00 PM ET",
-        "tv": "",
+        "tv": "TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1438,7 +1785,7 @@
         "opp": "NSH",
         "homeAway": "home",
         "time": "8:00 PM ET",
-        "tv": "",
+        "tv": "TVAS/SCRIPPS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1451,7 +1798,7 @@
         "opp": "PIT",
         "homeAway": "away",
         "time": "7:00 PM ET",
-        "tv": "DIS+",
+        "tv": "ESPN+/HULU/Disney+/TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1464,7 +1811,7 @@
         "opp": "BUF",
         "homeAway": "away",
         "time": "7:30 PM ET",
-        "tv": "",
+        "tv": "MSG-B",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1485,12 +1832,25 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2027-01-16_WSH",
+        "date": "2027-01-16",
+        "opp": "WSH",
+        "homeAway": "away",
+        "time": "7:00 PM ET",
+        "tv": "MNMT",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2027-01-18_VAN",
         "date": "2027-01-18",
         "opp": "VAN",
         "homeAway": "home",
         "time": "3:00 PM ET",
-        "tv": "",
+        "tv": "SN+",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1503,7 +1863,7 @@
         "opp": "BOS",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "NESN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1516,7 +1876,7 @@
         "opp": "DAL",
         "homeAway": "away",
         "time": "8:00 PM ET",
-        "tv": "",
+        "tv": "Prime Video",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1529,7 +1889,7 @@
         "opp": "DAL",
         "homeAway": "home",
         "time": "5:00 PM ET",
-        "tv": "",
+        "tv": "TVAS/Prime Video",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1542,7 +1902,7 @@
         "opp": "EDM",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1555,7 +1915,7 @@
         "opp": "STL",
         "homeAway": "away",
         "time": "8:00 PM ET",
-        "tv": "",
+        "tv": "STLNHL",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1568,7 +1928,7 @@
         "opp": "BUF",
         "homeAway": "home",
         "time": "5:00 PM ET",
-        "tv": "",
+        "tv": "MSG-B",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1581,7 +1941,7 @@
         "opp": "CAR",
         "homeAway": "away",
         "time": "7:30 PM ET",
-        "tv": "DIS+",
+        "tv": "ESPN+/HULU/Disney+/TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1594,7 +1954,7 @@
         "opp": "FLA",
         "homeAway": "away",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "TVAS/SCRIPPS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1615,6 +1975,19 @@
         "projectedGoalie": "Scott Wedgewood"
       },
       {
+        "id": "2027-02-13_TBL",
+        "date": "2027-02-13",
+        "opp": "TBL",
+        "homeAway": "away",
+        "time": "7:00 PM ET",
+        "tv": "",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2027-02-15_CLB",
         "date": "2027-02-15",
         "opp": "CLB",
@@ -1628,12 +2001,25 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2027-02-15_CBJ",
+        "date": "2027-02-15",
+        "opp": "CBJ",
+        "homeAway": "home",
+        "time": "3:00 PM ET",
+        "tv": "CBJNHL",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2027-02-17_EDM",
         "date": "2027-02-17",
         "opp": "EDM",
         "homeAway": "away",
-        "time": "8:30 PM ET",
-        "tv": "TNT",
+        "time": "9:00 PM ET",
+        "tv": "TNT/truTV/HBO MAX",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1646,7 +2032,7 @@
         "opp": "VAN",
         "homeAway": "away",
         "time": "10:00 PM ET",
-        "tv": "",
+        "tv": "SN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1672,7 +2058,7 @@
         "opp": "WPG",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1685,7 +2071,7 @@
         "opp": "FLA",
         "homeAway": "home",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "SCRIPPS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1698,7 +2084,7 @@
         "opp": "CHI",
         "homeAway": "away",
         "time": "6:30 PM ET",
-        "tv": "ESPN",
+        "tv": "ESPN/TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1711,7 +2097,7 @@
         "opp": "NSH",
         "homeAway": "away",
         "time": "8:00 PM ET",
-        "tv": "",
+        "tv": "SCRIPPS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1732,6 +2118,19 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2027-03-05_SJS",
+        "date": "2027-03-05",
+        "opp": "SJS",
+        "homeAway": "away",
+        "time": "10:00 PM ET",
+        "tv": "TVAS/NBCSCA",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2027-03-07_LA",
         "date": "2027-03-07",
         "opp": "LA",
@@ -1745,12 +2144,25 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2027-03-07_LAK",
+        "date": "2027-03-07",
+        "opp": "LAK",
+        "homeAway": "away",
+        "time": "4:00 PM ET",
+        "tv": "TVAS",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2027-03-09_PHI",
         "date": "2027-03-09",
         "opp": "PHI",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "TVAS/NBCSP",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1763,7 +2175,7 @@
         "opp": "NYR",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "",
+        "tv": "TVAS/MSG 2",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1776,7 +2188,7 @@
         "opp": "CHI",
         "homeAway": "home",
         "time": "6:00 PM ET",
-        "tv": "",
+        "tv": "CHSN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1789,7 +2201,7 @@
         "opp": "EDM",
         "homeAway": "home",
         "time": "9:30 PM ET",
-        "tv": "ESPN",
+        "tv": "ESPN/SN+/TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1802,7 +2214,7 @@
         "opp": "MIN",
         "homeAway": "home",
         "time": "8:30 PM ET",
-        "tv": "TNT",
+        "tv": "TNT/truTV/HBO MAX",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1815,7 +2227,7 @@
         "opp": "SEA",
         "homeAway": "away",
         "time": "10:00 PM ET",
-        "tv": "",
+        "tv": "TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1828,7 +2240,7 @@
         "opp": "CHI",
         "homeAway": "home",
         "time": "5:00 PM ET",
-        "tv": "",
+        "tv": "CHSN",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1841,7 +2253,7 @@
         "opp": "UTA",
         "homeAway": "home",
         "time": "9:30 PM ET",
-        "tv": "DIS+",
+        "tv": "ESPN+/HULU/Disney+",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1867,7 +2279,7 @@
         "opp": "WPG",
         "homeAway": "home",
         "time": "7:00 PM ET",
-        "tv": "",
+        "tv": "SNW",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1886,6 +2298,19 @@
         "scoreCol": null,
         "scoreOpp": null,
         "projectedGoalie": "MacKenzie Blackwood"
+      },
+      {
+        "id": "2027-03-29_SJS",
+        "date": "2027-03-29",
+        "opp": "SJS",
+        "homeAway": "away",
+        "time": "10:00 PM ET",
+        "tv": "TVAS/NBCSCA",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
       },
       {
         "id": "2027-03-30_ANA",
@@ -1914,12 +2339,25 @@
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
+        "id": "2027-04-02_LAK",
+        "date": "2027-04-02",
+        "opp": "LAK",
+        "homeAway": "home",
+        "time": "9:00 PM ET",
+        "tv": "",
+        "note": "",
+        "projectedGoalie": "MacKenzie Blackwood",
+        "status": "scheduled",
+        "scoreCol": null,
+        "scoreOpp": null
+      },
+      {
         "id": "2027-04-04_MIN",
         "date": "2027-04-04",
         "opp": "MIN",
         "homeAway": "away",
         "time": "2:00 PM ET",
-        "tv": "TNT",
+        "tv": "TNT/truTV/HBO MAX",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -1958,7 +2396,7 @@
         "opp": "MIN",
         "homeAway": "home",
         "time": "3:00 PM ET",
-        "tv": "ABC",
+        "tv": "ABC/TVAS",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -2032,7 +2470,7 @@
         "source": "Colorado Hockey Now",
         "url": "https://coloradohockeynow.com/avalanche-announce-2026-training-camp-roster/",
         "publishedAt": "2026-09-15",
-        "summary": "Colorado brought 29 forwards, 20 defensemen and seven goalies to camp this week. On-ice sessions run Thursday through Saturday ahead of a compressed, four-game preseason under the league's new collective-bargaining timeline \u2014 opening night lands just 13 days after camp opens."
+        "summary": "Colorado brought 29 forwards, 20 defensemen and seven goalies to camp this week. On-ice sessions run Thursday through Saturday ahead of a compressed, four-game preseason under the league's new collective-bargaining timeline — opening night lands just 13 days after camp opens."
       },
       {
         "id": "n2",
@@ -2080,10 +2518,10 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-09-17T19:17:51.007865Z",
-    "refreshedBy": "Claude (manual refresh)",
+    "lastRefreshed": "2026-09-17T19:57:26.128Z",
+    "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
-    "note": "Initial seed: rosters, schedule, injuries and news pulled from NHL.com, CBS Sports and Colorado Hockey Now on Sep 17, 2026. Ask Claude to refresh for the latest."
+    "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
   },
   "eloProcessedGameIds": []
 }
