@@ -964,18 +964,6 @@
         "note": ""
       },
       {
-        "num": "—",
-        "name": "Nikita Novosyolov",
-        "pos": "G",
-        "shot": "L",
-        "ht": "6-2",
-        "wt": 172,
-        "age": 22,
-        "birthplace": "Krasnoturyinsk",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
         "num": 41,
         "name": "Scott Wedgewood",
         "pos": "G",
@@ -2518,7 +2506,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-09-19T20:18:48.961Z",
+    "lastRefreshed": "2026-09-19T21:17:46.524Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
