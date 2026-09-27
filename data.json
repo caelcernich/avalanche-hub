@@ -43,7 +43,7 @@
         "Central Division Champions"
       ]
     },
-    "elo": 1586
+    "elo": 1572
   },
   "opponents": {
     "LA": {
@@ -252,7 +252,7 @@
         "instagram": "https://www.instagram.com/utahmammoth",
         "x": "https://twitter.com/UtahMammoth"
       },
-      "elo": 1499,
+      "elo": 1513,
       "venue": "Delta Center",
       "venueCity": "Salt Lake City, UT"
     },
@@ -1065,7 +1065,7 @@
         "tv": "Utah16",
         "note": "",
         "projectedGoalie": "MacKenzie Blackwood",
-        "status": "scheduled",
+        "status": "final",
         "scoreCol": 0,
         "scoreOpp": 2
       },
@@ -2424,6 +2424,14 @@
         "colWon": true,
         "scoreCol": 5,
         "scoreOpp": 2
+      },
+      {
+        "gameId": "2026-09-26_UTA",
+        "date": "2026-09-26",
+        "opp": "UTA",
+        "colWon": false,
+        "scoreCol": 0,
+        "scoreOpp": 2
       }
     ]
   },
@@ -2483,7 +2491,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-09-26T23:17:50.228Z",
+    "lastRefreshed": "2026-09-27T00:28:45.779Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
@@ -2491,6 +2499,7 @@
   "eloProcessedGameIds": [
     "2026-09-20_UTA",
     "2026-09-21_WPG",
-    "2026-09-25_WPG"
+    "2026-09-25_WPG",
+    "2026-09-26_UTA"
   ]
 }
