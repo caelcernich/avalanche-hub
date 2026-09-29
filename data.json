@@ -484,30 +484,6 @@
   "roster": {
     "players": [
       {
-        "num": 34,
-        "name": "Adam Beckman",
-        "pos": "L",
-        "shot": "L",
-        "ht": "6-2",
-        "wt": 192,
-        "age": 25,
-        "birthplace": "Saskatoon, SK",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": 18,
-        "name": "Vinnie Hinostroza",
-        "pos": "C",
-        "shot": "R",
-        "ht": "5-10",
-        "wt": 183,
-        "age": 32,
-        "birthplace": "Chicago, IL",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
         "num": 13,
         "name": "T.J. Hughes",
         "pos": "R",
@@ -580,18 +556,6 @@
         "note": ""
       },
       {
-        "num": 22,
-        "name": "Fabian Lysell",
-        "pos": "R",
-        "shot": "R",
-        "ht": "5-11",
-        "wt": 186,
-        "age": 23,
-        "birthplace": "Gothenburg",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
         "num": 29,
         "name": "Nathan MacKinnon",
         "pos": "C",
@@ -602,30 +566,6 @@
         "birthplace": "Halifax, NS",
         "status": "Healthy",
         "note": "Alternate captain"
-      },
-      {
-        "num": 16,
-        "name": "Taylor Makar",
-        "pos": "L",
-        "shot": "L",
-        "ht": "6-3",
-        "wt": 190,
-        "age": 25,
-        "birthplace": "Calgary, AB",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": 49,
-        "name": "Georgii Merkulov",
-        "pos": "C",
-        "shot": "L",
-        "ht": "5-11",
-        "wt": 174,
-        "age": 25,
-        "birthplace": "Ryazan",
-        "status": "Healthy",
-        "note": ""
       },
       {
         "num": 88,
@@ -696,18 +636,6 @@
         "wt": 187,
         "age": 23,
         "birthplace": "Togliatti",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": 5,
-        "name": "Wyatt Aamodt",
-        "pos": "D",
-        "shot": "L",
-        "ht": "6-0",
-        "wt": 201,
-        "age": 28,
-        "birthplace": "Hermantown, MN",
         "status": "Healthy",
         "note": ""
       },
@@ -784,18 +712,6 @@
         "note": ""
       },
       {
-        "num": 67,
-        "name": "Keaton Middleton",
-        "pos": "D",
-        "shot": "L",
-        "ht": "6-6",
-        "wt": 240,
-        "age": 28,
-        "birthplace": "Edmonton, AB",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
         "num": 7,
         "name": "Devon Toews",
         "pos": "D",
@@ -816,18 +732,6 @@
         "wt": 225,
         "age": 29,
         "birthplace": "Thunder Bay, ON",
-        "status": "Healthy",
-        "note": ""
-      },
-      {
-        "num": 50,
-        "name": "Trent Miner",
-        "pos": "G",
-        "shot": "L",
-        "ht": "6-1",
-        "wt": 185,
-        "age": 25,
-        "birthplace": "Brandon, MB",
         "status": "Healthy",
         "note": ""
       },
@@ -2407,7 +2311,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-09-29T14:22:18.028Z",
+    "lastRefreshed": "2026-09-29T15:23:52.826Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
