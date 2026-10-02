@@ -43,7 +43,7 @@
         "Central Division Champions"
       ]
     },
-    "elo": 1504
+    "elo": 1503
   },
   "opponents": {
     "LA": {
@@ -70,7 +70,7 @@
         "instagram": "https://www.instagram.com/stlouisblues",
         "x": "https://twitter.com/StLouisBlues"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Enterprise Center",
       "venueCity": "St. Louis, MO"
     },
@@ -84,7 +84,7 @@
         "instagram": "https://www.instagram.com/nhljets",
         "x": "https://twitter.com/NHLJets"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Canada Life Centre",
       "venueCity": "Winnipeg, MB"
     },
@@ -98,7 +98,7 @@
         "instagram": "https://www.instagram.com/calgaryflames",
         "x": "https://twitter.com/NHLFlames"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Scotiabank Saddledome",
       "venueCity": "Calgary, AB"
     },
@@ -112,7 +112,7 @@
         "instagram": "https://www.instagram.com/mapleleafs",
         "x": "https://twitter.com/MapleLeafs"
       },
-      "elo": 1504,
+      "elo": 1503,
       "venue": "Scotiabank Arena",
       "venueCity": "Toronto, ON"
     },
@@ -126,7 +126,7 @@
         "instagram": "https://www.instagram.com/dallasstars",
         "x": "https://twitter.com/DallasStars"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "American Airlines Center",
       "venueCity": "Dallas, TX"
     },
@@ -140,7 +140,7 @@
         "instagram": "https://www.instagram.com/pittsburghpenguins",
         "x": "https://twitter.com/penguins"
       },
-      "elo": 1504,
+      "elo": 1503,
       "venue": "PPG Paints Arena",
       "venueCity": "Pittsburgh, PA"
     },
@@ -154,7 +154,7 @@
         "instagram": "https://www.instagram.com/nhlflyers",
         "x": "https://twitter.com/NHLFlyers"
       },
-      "elo": 1501,
+      "elo": 1500,
       "venue": "Xfinity Mobile Arena",
       "venueCity": "Philadelphia, PA"
     },
@@ -196,7 +196,7 @@
         "instagram": "https://www.instagram.com/predsnhl",
         "x": "https://twitter.com/PredsNHL"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Bridgestone Arena",
       "venueCity": "Nashville, TN"
     },
@@ -210,7 +210,7 @@
         "instagram": "https://www.instagram.com/detroitredwings",
         "x": "https://twitter.com/DetroitRedWings"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Little Caesars Arena",
       "venueCity": "Detroit, MI"
     },
@@ -224,7 +224,7 @@
         "instagram": "https://www.instagram.com/ottawasenators",
         "x": "https://twitter.com/Senators"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Canadian Tire Centre",
       "venueCity": "Ottawa, ON"
     },
@@ -238,7 +238,7 @@
         "instagram": "https://www.instagram.com/canadiens",
         "x": "https://twitter.com/CanadiensMTL"
       },
-      "elo": 1504,
+      "elo": 1503,
       "venue": "Bell Centre",
       "venueCity": "Montreal, QC"
     },
@@ -252,7 +252,7 @@
         "instagram": "https://www.instagram.com/utahmammoth",
         "x": "https://twitter.com/UtahMammoth"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Delta Center",
       "venueCity": "Salt Lake City, UT"
     },
@@ -266,7 +266,7 @@
         "instagram": "https://www.instagram.com/anaheimducks",
         "x": "https://twitter.com/AnaheimDucks"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Honda Center",
       "venueCity": "Anaheim, CA"
     },
@@ -280,7 +280,7 @@
         "instagram": "https://www.instagram.com/mnwild",
         "x": "https://twitter.com/mnwild"
       },
-      "elo": 1498,
+      "elo": 1503,
       "venue": "Grand Casino Arena",
       "venueCity": "Saint Paul, MN"
     },
@@ -308,7 +308,7 @@
         "instagram": "https://www.instagram.com/nhlbruins",
         "x": "https://twitter.com/NHLBruins"
       },
-      "elo": 1504,
+      "elo": 1503,
       "venue": "TD Garden",
       "venueCity": "Boston, MA"
     },
@@ -322,7 +322,7 @@
         "instagram": "https://www.instagram.com/nyrangers",
         "x": "https://twitter.com/NYRangers"
       },
-      "elo": 1504,
+      "elo": 1503,
       "venue": "Madison Square Garden",
       "venueCity": "New York, NY"
     },
@@ -336,7 +336,7 @@
         "instagram": "https://www.instagram.com/nyislanders",
         "x": "https://twitter.com/NYIslanders"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "UBS Arena",
       "venueCity": "Elmont, NY"
     },
@@ -364,7 +364,7 @@
         "instagram": "https://www.instagram.com/carolinahurricanes",
         "x": "https://twitter.com/Canes"
       },
-      "elo": 1501,
+      "elo": 1500,
       "venue": "Lenovo Center",
       "venueCity": "Raleigh, NC"
     },
@@ -378,7 +378,7 @@
         "instagram": "https://www.instagram.com/seattlekraken",
         "x": "https://twitter.com/SeattleKraken"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "Climate Pledge Arena",
       "venueCity": "Seattle, WA"
     },
@@ -392,7 +392,7 @@
         "instagram": "https://www.instagram.com/goldenknights",
         "x": "https://twitter.com/GoldenKnights"
       },
-      "elo": 1504,
+      "elo": 1503,
       "venue": "T-Mobile Arena",
       "venueCity": "Las Vegas, NV"
     },
@@ -406,7 +406,7 @@
         "instagram": "https://www.instagram.com/buffalosabres",
         "x": "https://twitter.com/BuffaloSabres"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "KeyBank Center",
       "venueCity": "Buffalo, NY"
     },
@@ -420,7 +420,7 @@
         "instagram": "https://www.instagram.com/vancouvercanucks",
         "x": "https://twitter.com/Canucks"
       },
-      "elo": 1504,
+      "elo": 1503,
       "venue": "Rogers Arena",
       "venueCity": "Vancouver, BC"
     },
@@ -434,7 +434,7 @@
         "instagram": "https://www.instagram.com/edmontonoilers",
         "x": "https://twitter.com/EdmontonOilers"
       },
-      "elo": 1501,
+      "elo": 1500,
       "venue": "Rogers Place",
       "venueCity": "Edmonton, AB"
     },
@@ -448,7 +448,7 @@
         "instagram": "https://www.instagram.com/nhlblackhawks",
         "x": "https://twitter.com/NHLBlackhawks"
       },
-      "elo": 1498,
+      "elo": 1497,
       "venue": "United Center",
       "venueCity": "Chicago, IL"
     },
@@ -476,7 +476,7 @@
         "instagram": "https://www.instagram.com/flapanthers",
         "x": "https://twitter.com/FlaPanthers"
       },
-      "elo": 1504,
+      "elo": 1503,
       "venue": "Amerant Bank Arena",
       "venueCity": "Sunrise, FL"
     }
@@ -2311,7 +2311,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-10-02T02:20:24.948Z",
+    "lastRefreshed": "2026-10-02T03:21:47.800Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
