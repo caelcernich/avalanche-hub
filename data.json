@@ -43,7 +43,7 @@
         "Central Division Champions"
       ]
     },
-    "elo": 1514
+    "elo": 1505
   },
   "opponents": {
     "LA": {
@@ -70,7 +70,7 @@
         "instagram": "https://www.instagram.com/stlouisblues",
         "x": "https://twitter.com/StLouisBlues"
       },
-      "elo": 1490,
+      "elo": 1499,
       "venue": "Enterprise Center",
       "venueCity": "St. Louis, MO"
     },
@@ -2319,7 +2319,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-10-04T05:15:58.647Z",
+    "lastRefreshed": "2026-10-04T11:35:10.869Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
