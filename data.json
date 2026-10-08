@@ -43,7 +43,7 @@
         "Central Division Champions"
       ]
     },
-    "elo": 1501
+    "elo": 1490
   },
   "opponents": {
     "LA": {
@@ -84,7 +84,7 @@
         "instagram": "https://www.instagram.com/nhljets",
         "x": "https://twitter.com/NHLJets"
       },
-      "elo": 1504,
+      "elo": 1521,
       "venue": "Canada Life Centre",
       "venueCity": "Winnipeg, MB"
     },
@@ -936,7 +936,7 @@
         "time": "7:30 PM ET",
         "tv": "Prime/ALT",
         "note": "",
-        "status": "scheduled",
+        "status": "final",
         "scoreCol": 2,
         "scoreOpp": 3,
         "projectedGoalie": "MacKenzie Blackwood"
@@ -2260,6 +2260,14 @@
         "colWon": true,
         "scoreCol": 6,
         "scoreOpp": 1
+      },
+      {
+        "gameId": "2026-10-07_WPG",
+        "date": "2026-10-07",
+        "opp": "WPG",
+        "colWon": false,
+        "scoreCol": 2,
+        "scoreOpp": 3
       }
     ]
   },
@@ -2319,7 +2327,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-10-08T02:21:04.464Z",
+    "lastRefreshed": "2026-10-08T03:22:50.820Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
@@ -2329,6 +2337,7 @@
     "2026-09-21_WPG",
     "2026-09-25_WPG",
     "2026-09-26_UTA",
-    "2026-10-03_STL"
+    "2026-10-03_STL",
+    "2026-10-07_WPG"
   ]
 }
