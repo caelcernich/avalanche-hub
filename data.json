@@ -43,7 +43,7 @@
         "Central Division Champions"
       ]
     },
-    "elo": 1513
+    "elo": 1505
   },
   "opponents": {
     "LA": {
@@ -98,7 +98,7 @@
         "instagram": "https://www.instagram.com/calgaryflames",
         "x": "https://twitter.com/NHLFlames"
       },
-      "elo": 1479,
+      "elo": 1487,
       "venue": "Scotiabank Saddledome",
       "venueCity": "Calgary, AB"
     },
@@ -112,7 +112,7 @@
         "instagram": "https://www.instagram.com/mapleleafs",
         "x": "https://twitter.com/MapleLeafs"
       },
-      "elo": 1499,
+      "elo": 1502,
       "venue": "Scotiabank Arena",
       "venueCity": "Toronto, ON"
     },
@@ -392,7 +392,7 @@
         "instagram": "https://www.instagram.com/goldenknights",
         "x": "https://twitter.com/GoldenKnights"
       },
-      "elo": 1505,
+      "elo": 1511,
       "venue": "T-Mobile Arena",
       "venueCity": "Las Vegas, NV"
     },
@@ -2335,7 +2335,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-10-09T04:23:30.312Z",
+    "lastRefreshed": "2026-10-09T05:22:41.570Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
