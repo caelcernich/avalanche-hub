@@ -43,7 +43,7 @@
         "Central Division Champions"
       ]
     },
-    "elo": 1502
+    "elo": 1494
   },
   "opponents": {
     "LA": {
@@ -126,7 +126,7 @@
         "instagram": "https://www.instagram.com/dallasstars",
         "x": "https://twitter.com/DallasStars"
       },
-      "elo": 1493,
+      "elo": 1510,
       "venue": "American Airlines Center",
       "venueCity": "Dallas, TX"
     },
@@ -1000,9 +1000,9 @@
         "time": "8:30 PM ET",
         "tv": "TNT/truTV/HBO MAX",
         "note": "",
-        "status": "scheduled",
-        "scoreCol": null,
-        "scoreOpp": null,
+        "status": "final",
+        "scoreCol": 2,
+        "scoreOpp": 3,
         "projectedGoalie": "Scott Wedgewood"
       },
       {
@@ -2304,6 +2304,14 @@
         "colWon": true,
         "scoreCol": 3,
         "scoreOpp": 2
+      },
+      {
+        "gameId": "2026-10-14_DAL",
+        "date": "2026-10-14",
+        "opp": "DAL",
+        "colWon": false,
+        "scoreCol": 2,
+        "scoreOpp": 3
       }
     ]
   },
@@ -2363,7 +2371,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-10-14T23:08:35.741Z",
+    "lastRefreshed": "2026-10-15T04:25:59.409Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
@@ -2377,6 +2385,7 @@
     "2026-10-07_WPG",
     "2026-10-08_CGY",
     "2026-10-10_TOR",
-    "2026-10-13_DAL"
+    "2026-10-13_DAL",
+    "2026-10-14_DAL"
   ]
 }
