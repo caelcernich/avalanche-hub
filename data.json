@@ -1258,7 +1258,7 @@
         "opp": "ANA",
         "homeAway": "home",
         "time": "9:00 PM ET",
-        "tv": "TVAS/KUSA/ALT/KTVD/Prime Video/KCOP-13",
+        "tv": "TVAS/KUSA/ALT/KTVD/FOXLA+/Prime Video",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -2090,7 +2090,7 @@
         "opp": "ANA",
         "homeAway": "away",
         "time": "10:00 PM ET",
-        "tv": "SN/ALT/Prime Video/KCOP-13",
+        "tv": "SN/ALT/FOXLA+/Prime Video",
         "note": "",
         "status": "scheduled",
         "scoreCol": null,
@@ -2371,7 +2371,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-10-15T19:03:20.218Z",
+    "lastRefreshed": "2026-10-15T22:10:34.107Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
