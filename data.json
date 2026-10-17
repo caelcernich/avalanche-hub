@@ -43,7 +43,7 @@
         "Central Division Champions"
       ]
     },
-    "elo": 1502
+    "elo": 1517
   },
   "opponents": {
     "LA": {
@@ -140,7 +140,7 @@
         "instagram": "https://www.instagram.com/pittsburghpenguins",
         "x": "https://twitter.com/penguins"
       },
-      "elo": 1496,
+      "elo": 1487,
       "venue": "PPG Paints Arena",
       "venueCity": "Pittsburgh, PA"
     },
@@ -1013,9 +1013,9 @@
         "time": "9:00 PM ET",
         "tv": "SN+/TVAS/ALT/KTVD/SN-PIT",
         "note": "",
-        "status": "scheduled",
-        "scoreCol": null,
-        "scoreOpp": null,
+        "status": "final",
+        "scoreCol": 5,
+        "scoreOpp": 2,
         "projectedGoalie": "MacKenzie Blackwood"
       },
       {
@@ -2312,6 +2312,14 @@
         "colWon": false,
         "scoreCol": 2,
         "scoreOpp": 3
+      },
+      {
+        "gameId": "2026-10-16_PIT",
+        "date": "2026-10-16",
+        "opp": "PIT",
+        "colWon": true,
+        "scoreCol": 5,
+        "scoreOpp": 2
       }
     ]
   },
@@ -2371,7 +2379,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-10-16T23:29:00.912Z",
+    "lastRefreshed": "2026-10-17T04:13:21.061Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
@@ -2386,6 +2394,7 @@
     "2026-10-08_CGY",
     "2026-10-10_TOR",
     "2026-10-13_DAL",
-    "2026-10-14_DAL"
+    "2026-10-14_DAL",
+    "2026-10-16_PIT"
   ]
 }
