@@ -736,7 +736,7 @@
         "note": ""
       },
       {
-        "num": "—",
+        "num": 5,
         "name": "Mike Reilly",
         "pos": "D",
         "shot": "L",
@@ -2475,7 +2475,7 @@
     "notes": "Elo ratings are seeded from final 2025-26 standings and preseason reporting. Home advantage worth ~40 Elo points (roughly a league-average home team beats a league-average road team ~55% of the time). Injury and goalie adjustments are applied at prediction time, not baked into the stored base rating, so they stay visible in the breakdown. Ratings recalculate after each result is logged."
   },
   "meta": {
-    "lastRefreshed": "2026-11-15T21:40:55.672Z",
+    "lastRefreshed": "2026-11-16T01:53:02.290Z",
     "refreshedBy": "Automated hourly job (api-web.nhle.com)",
     "season": "2026-27",
     "note": "Schedule, scores, standings-based Elo and roster refresh automatically every hour from the NHL's public API. Injuries and news are hand-maintained in data.json — this job never overwrites them."
